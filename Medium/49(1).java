@@ -23,7 +23,7 @@ class Solution {
     }
 
     private String generateKey(String str) {
-        char[] arr = str.toCharArry();
+        char[] arr = str.toCharArray();
         Arrays.sort(arr);
         return new String(arr);
     }
