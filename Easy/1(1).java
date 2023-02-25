@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-// Approach: Two-Nested For Loops
+// Approach: Nested For Loops
 // Time Complexity: Quadratic ~ O(n^2)
 
 class Solution {
