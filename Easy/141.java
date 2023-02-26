@@ -10,7 +10,7 @@
  * }
  */
 
-// Approach: Iteration using Two Pointers
+// Approach: Two Pointers (Fast & Slow) Method
 // Time Complexity: Linear ~ O(n)
 // Space Complexity: O(1)
 
