@@ -9,7 +9,7 @@
  * }
  */
 
-// Approach: Iterative
+// Approach: Iteration
 // Time Complexity: Linear ~ O(n)
 // Space Complexity: O(1)
 
