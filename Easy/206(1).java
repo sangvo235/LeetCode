@@ -19,11 +19,10 @@ class Solution {
         // Initializing Pointers
         ListNode prev = null;
         ListNode curr = head;
-        ListNode next = null;
 
         while (curr != null) {
             // save next node
-            next = curr.next;
+            ListNode next = curr.next;
             // reverse the link
             curr.next = prev;
             // advance previous pointer
