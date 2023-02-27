@@ -14,9 +14,6 @@ class Solution {
         int L = 0;
         int R = n - 1;
 
-        // Initialise min value
-        int min = 0;
-
         if (nums[L] < nums[R])
             return nums[L];
 
