@@ -1,5 +1,5 @@
 // Approach: Brute Force
-// Time Complexity: Linear ~ O(n^2)
+// Time Complexity: Quadratic ~ O(n^2)
 // Space Complexity: O(1)
 
 class Solution {
