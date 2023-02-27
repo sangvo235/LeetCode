@@ -12,8 +12,7 @@ class Solution {
         int left = 0;
         int right = n - 1;
 
-        // declare current area and max area
-        int area = 0;
+        // declare max area
         int max = 0;
 
         while (left < right) {
