@@ -1,6 +1,6 @@
-// Approach: Mapping
-// Time Complexity: Linear O(n)
-// Space Complexity: O(1)
+// Approach: Hash Map
+// Time Complexity: Linear ~ O(n)
+// Space Complexity: O(n)
 
 class Solution {
     public boolean isIsomorphic(String s, String t) {
@@ -30,3 +30,19 @@ class Solution {
         return true;
     }
 }
+
+// class Solution {
+// public boolean isIsomorphic(String s, String t) {
+// // Constraints that s & t consist of any valid ascii character
+
+// Map m = new HashMap();
+
+// for (int i = 0; i < s.length(); i++) {
+
+// // V put (K key, V value)
+// if (!Objects.equals(m.put(s.charAt(i), i), m.put(t.charAt(i) + "", i)))
+// return false;
+// }
+// return true;
+// }
+// }
